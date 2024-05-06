@@ -20,6 +20,9 @@
     // function add(num1,num2):Add{
     //     return num1+num2
     // }
+    const add:Add=function(num1,num2){
+        return num1+num2
+    }
 
     const add2 : Add = (num1,num2)=>num1+num2
     // Here, you're using an arrow function, and you've explicitly annotated the variable add2 with the type Add. In this case, TypeScript can infer the types of num1 and num2 based on the type annotation of Add. Therefore, it does not raise an error because it can verify that the arrow function matches the specified type.

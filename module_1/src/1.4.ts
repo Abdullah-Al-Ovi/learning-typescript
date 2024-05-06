@@ -5,7 +5,7 @@ let friendsAge : number[] = [4,4]
 
 
 let nameAge : [number,string] = [3,"d"]
-nameAge.push(6)
+// nameAge.push(6)
 
 // Array
 let arr : any[] = ['gg',8]
